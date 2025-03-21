@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./navativo.js" defer ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Projeto-Tawindcss</title>
+  </head>
+  <body class="bg-[#020312] overflow-x-hidden">
+    <header  
+      class="z-[2] bg-white py-[20px] fixed top-[0] left-[0] w-[100%] shadow-xl shadow-orange-900"
+    >
+      <div
+        class="max-w-[1480px] px-[4%] m-auto flex justify-between items-center relative"
+      >
+        <section >
+          <h1
+            class="font-bold text-white text-5xl border-[3px] border-none py-[15px] px-[25px] absolute bg-orange-600 rounded-[5px] top-[2px]"
+          >
+            P.
+          </h1>
+        </section>
+        <section>
+          <nav>
+            <ul class="flex gap-[1.5rem] font-medium text-[1rem]">
+              <li>
+                <a
+                  class=" nav-link px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#home"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  class=" nav-link px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#Services"
+                  >SERVICES</a
+                >
+              </li>
+              <li>
+                <a
+                  class=" nav-link px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#about-me"
+                  >ABOUT ME</a
+                >
+              </li>
+              <li>
+                <a
+                  class="  px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#"
+                  >SKILLS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="  px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#"
+                  >PORTIFOLIO</a
+                >
+              </li>
+              <li>
+                <a
+                  class="  px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#"
+                  >CLIENTS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="  px-[0.5rem] hover:text-orange-600 hover:transition-all hover:duration-200 hover:py-[0.3rem] hover:border-y-[2px]"
+                  href="#"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </header>
+    <section id="home"
+      class="bg-[url('./img/hacker1.png')] h-[100vh] bg-cover shadow-lg shadow-orange-900"
+    >
+      <div
+        class="topo-1 invisible max-w-[1480px] px-[4%] m-auto flex flex-col justify-center items-end h-[100%]"
+      >
+        <div
+          class="flex gap-[3rem] mr-[10rem] mb-6 border-y-[2px] border-white p-[0.3rem] px-[1rem] rounded-[5px]"
+        >
+          <i
+            class="bi bi-whatsapp text-orange-600 text-[1.3rem] cursor-pointer"
+          ></i>
+          <i
+            class="bi bi-facebook text-orange-600 text-[1.3rem] cursor-pointer"
+          ></i>
+          <i
+            class="bi bi-instagram text-orange-600 text-[1.3rem] cursor-pointer"
+          ></i>
+          <i
+            class="bi bi-github text-orange-600 text-[1.3rem] cursor-pointer"
+          ></i>
+          <i
+            class="bi bi-linkedin text-orange-600 text-[1.3rem] cursor-pointer"
+          ></i>
+        </div>
+        <div
+          class="bg-[rgba(0,0,255,0.1)] transition border-[8px] border-white mr-30 p-[1.5rem]"
+        >
+          <h2
+            id="titulo"
+            class="transition-all duration-400 text-orange-600 text-[4rem] font-bold mb-2 px-[1.5rem]"
+          >
+            I am Paul Robert
+          </h2>
+        </div>
+
+        <p
+          class="text-white text-[3rem] font-medium mr-[9rem] mb-30 animate-pulse transition-colors duration-500"
+        >
+          Developer Full Stack
+        </p>
+        <div>
+          <a href="#Services">
+            <i
+              class="bi bi-arrow-down-square-fill text-orange-600 text-[3rem] mr-[10rem] hover:text-orange-400 transition-all duration-200"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="Services" class="py-[3rem]">
+      <div class="max-w-[1380px] px-[4%] m-auto h-auto">
+        <h2
+          class="servicos font-thin text-white text-center text-[3rem] font-medium pt-[5rem] pb-[1rem]"
+        >
+          My Services
+        </h2>
+
+        <section
+          class="invisible text-white flex flex-wrap justify-around gap-[0.5rem] py-[3rem]"
+        >
+          <div
+            class="card-1 w-[400px] p-[1.5rem] hover:border-orange-600 hover:translate-y-[-2rem] hover:border-y-[1px] hover:transition-all duration-400 cursor-pointer rounded-[1.1rem] translate-t-[30%] mb-[2.5rem] shadow-md shadow-black"
+          >
+            <i
+              class="bi bi-braces text-orange-600 font-thin text-[3rem] hover:translate-x-[2rem]"
+            ></i>
+
+            <h2 class="text-[1.5rem] pb-[1.1rem] font-thin">Java Script</h2>
+
+            <p class="text-justify text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, voluptatem omnis. Ipsum, nihil quos mollitia.
+            </p>
+          </div>
+          <div
+            class="card-2 w-[400px] p-[1.5rem] hover:border-orange-600 hover:translate-y-[-2rem] hover:border-y-[1px] hover:transition-all duration-400 cursor-pointer rounded-[1.1rem] mb-[2.5rem] shadow-md shadow-black"
+          >
+            <i class="bi bi-android2 text-orange-600 font-thin text-[3rem]"></i>
+
+            <h2 class="text-[1.5rem] pb-[1.1rem] font-thin">Java Script</h2>
+
+            <p class="text-justify text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, voluptatem omnis. Ipsum, nihil quos mollitia.
+            </p>
+          </div>
+          <div
+            class="card-3 w-[400px] p-[1.5rem] hover:border-orange-600 hover:translate-y-[-2rem] hover:border-y-[1px] hover:transition-all duration-400 cursor-pointer rounded-[1.1rem] mb-[2.5rem] shadow-md shadow-black"
+          >
+            <i
+              class="bi bi-code-square text-orange-600 font-thin text-[3rem]"
+            ></i>
+
+            <h2 class="text-[1.5rem] pb-[1.1rem] font-thin">Java Script</h2>
+
+            <p class="text-justify text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, voluptatem omnis. Ipsum, nihil quos mollitia.
+            </p>
+          </div>
+          <div
+            class="card-4 w-[400px] p-[1.5rem] hover:border-orange-600 hover:translate-y-[-2rem] hover:border-y-[1px] hover:transition-all duration-400 cursor-pointer rounded-[1.1rem] mb-[2.5rem] shadow-md shadow-black"
+          >
+            <i
+              class="bi bi-database-add text-orange-600 font-thin text-[3rem]"
+            ></i>
+
+            <h2 class="text-[1.5rem] pb-[1.1rem] font-thin">Java Script</h2>
+
+            <p class="text-justify text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, voluptatem omnis. Ipsum, nihil quos mollitia.
+            </p>
+          </div>
+          <div
+            class="card-5 w-[400px] p-[1.5rem] hover:border-orange-600 hover:translate-y-[-2rem] hover:border-y-[1px] hover:transition-all duration-400 cursor-pointer rounded-[1.1rem] mb-[2.5rem] shadow-md shadow-black"
+          >
+            <i
+              class="bi bi-filetype-js text-orange-600 font-thin text-[3rem]"
+            ></i>
+
+            <h2 class="text-[1.5rem] pb-[1.1rem] font-thin">Java Script</h2>
+
+            <p class="text-justify text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, voluptatem omnis. Ipsum, nihil quos mollitia.
+            </p>
+          </div>
+          <div
+            class="card-6 w-[400px] p-[1.5rem] hover:border-orange-600 hover:translate-y-[-2rem] hover:border-y-[1px] hover:transition-all duration-400 cursor-pointer rounded-[1.1rem] mb-[2.5rem] shadow-md shadow-black"
+          >
+            <i
+              class="bi bi-filetype-jsx text-orange-600 font-thin text-[3rem]"
+            ></i>
+
+            <h2 class="text-[1.5rem] pb-[1.1rem] font-thin">Java Script</h2>
+
+            <p class="text-justify text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, voluptatem omnis. Ipsum, nihil quos mollitia.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="about-me">
+      <div class="max-w-[1380px] px-[4%] m-auto my-[3rem]">
+        <h2
+          class="servicos font-thin text-white text-center text-[3rem] font-medium pt-[5rem] pb-[1rem]"
+        >
+          About Me
+        </h2>
+        <div class="flex text-white gap-[10rem] py-[5rem] h-auto">
+          <div class="invisible sobre-mim flex flex-col gap-[2rem]">
+            <h3
+              class="text-[2rem] border-[3px] border-white py-[1rem] px-[2rem] text-orange-600 w-fit"
+            >
+              Hi There
+            </h3>
+            <p class="text-[1.2rem] text-gray-400 text-justify">
+              In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
+              sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
+              efficitur sagittis, urna est ultricies eros, ac porta sem turpis
+              quis leo. Nulla in feugiat elit.
+            </p>
+            <div class="flex gap-[15rem] border-b-[2px] pb-[2.5rem]">
+              <div class="flex flex-col gap-[1rem]">
+                <div>
+                  <p class="text-[1.2rem] text-orange-600">Name:</p>
+                  <p class="text-[1.1rem]">Paulo Roberto</p>
+                </div>
+                <div>
+                  <p class="text-[1.2rem] text-orange-600">Phone:</p>
+                  <p class="text-[1.1rem]">(85) 9 9628-4022</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-[1rem]">
+                <div>
+                  <p class="text-[1.2rem] text-orange-600">Email:</p>
+                  <p class="text-[1.1rem]">castroaureo8@gmail.com</p>
+                </div>
+                <div>
+                  <p class="text-[1.2rem] text-orange-600">Twitter:</p>
+                  <p class="text-[1.1rem]">freelancer9</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-row gap-[2rem] mt-[1rem]">
+              <a href="#"
+                ><button
+                  class="relative bg-orange-600 py-[0.6rem] px-[2rem] cursor-pointer w-48 h-12 flex items-center justify-center text-white font-bold overflow-hidden transition-all duration-500 group"
+                >
+                  <span
+                    class="absolute left-0 w-full h-full flex items-center justify-center transition-all duration-500 group-hover:translate-x-full"
+                  >
+                    CONTACT ME
+                  </span>
+                  <!-- Novo texto (começa escondido à esquerda) -->
+                  <span
+                    class="absolute left-0 w-full h-full flex items-center justify-center text-black bg-orange-400 transition-all duration-500 translate-x-[-100%] group-hover:translate-x-0"
+                  >
+                    CONTACT ME
+                  </span>
+                </button></a
+              >
+              <a href="#"
+                ><button
+                  class="bg-black py-[0.6rem] px-[2rem] cursor-pointer relative w-48 h-12 flex items-center justify-center text-white font-bold overflow-hidden transition-all duration-500 group border-[1px]"
+                >
+                  <span
+                    class="absolute left-0 w-full h-full flex items-center justify-center transition-all duration-500 group-hover:translate-x-full"
+                  >
+                    DOWNLOAD CV
+                  </span>
+                  <!-- Novo texto (começa escondido à esquerda) -->
+                  <span
+                    class="absolute left-0 w-full h-full flex items-center justify-center text-black bg-white transition-all duration-500 translate-x-[-100%] group-hover:translate-x-0"
+                  >
+                    DOWNLOAD CV
+                  </span>
+                </button></a
+              >
+            </div>
+
+          </div>
+          <img
+            class="invisible img-sobre-mim w-[960px] h-[500px] shadow-lg shadow-orange-900"
+            src="./img/homem2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
