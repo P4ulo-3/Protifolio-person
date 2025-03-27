@@ -144,4 +144,17 @@
       delay: 500
     });
 
+    revelar.reveal(".div-skill", {
+      duration: 1500,
+      origin: "left",
+      distance: "300px"
+      
+    });
+
+    revelar.reveal(".txt-skill", {
+      duration: 1500,
+      origin: "left",
+      distance: "300px",
+    });
+
     
